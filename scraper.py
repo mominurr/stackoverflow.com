@@ -2,9 +2,10 @@ import time
 import pandas as pd
 import requests
 from requests_html import HTML
-import sys,threading,json,random
+import sys,threading,json,random,os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm  # For showing a progress bar
+os.makedirs("data", exist_ok=True) 
 # Global progress bar and lock
 pbar = None
 pbar_lock = threading.Lock()
