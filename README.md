@@ -56,7 +56,7 @@ Ensure Python is installed on your machine.
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/mominurr/Trending-Products-on-E-Commerce-Website.git
+   git clone https://github.com/mominurr/stackoverflow.com.git
     ```
 2. **Create a Virtual Environment**
 
